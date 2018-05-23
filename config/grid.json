@@ -1,0 +1,18 @@
+{
+  "cucumber": {
+    "inclusive_tags": [
+      "@Smoke"
+    ],
+    "exclusive_tags": ["@TN"],
+    "step_timeout": "30"
+  },
+  "selenium": {
+    "browser": "MicrosoftEdge",
+    "browser_instances":"2",
+    "remote_url": "http://YOUR_GRID_HOST:4444/wd/hub"
+  },
+  "vrs":{
+    "url":"https://vrs-stage.int.njsvrs.com/stage/vrs-ui/",
+    "password":"Every1count$"
+  }
+}

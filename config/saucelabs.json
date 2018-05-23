@@ -1,0 +1,22 @@
+{
+  "cucumber": {
+    "inclusive_tags": [
+      "@Smoke"
+    ],
+    "exclusive_tags": ["@TN"],
+    "step_timeout": "20"
+  },
+  "selenium": {
+    "browser": "MicrosoftEdge",
+    "browser_instances":"1",
+    "sauceLabs":"true"
+  },
+  "sauceLabs": {
+    "username": "SAUCE_USERNAME",
+    "accessKey": "SAUCE_ACCESS_KEY",
+    "platform": "macOS 10.12",
+    "screen_resolution": "1920x1080",
+    "max_duration": "3600",
+    "sauce_connect": "true"
+  }
+}

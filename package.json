@@ -1,0 +1,22 @@
+{
+  "name": "abacus-webdriver-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "abacus": "abacus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g2valdez/abacus-webdriver-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g2valdez/abacus-webdriver-example/issues"
+  },
+  "homepage": "https://github.com/g2valdez/abacus-webdriver-example#readme",
+  "dependencies": {
+    "abacus-webdriver": "g2valdez/abacus-webdriver#async/await"
+  }
+}

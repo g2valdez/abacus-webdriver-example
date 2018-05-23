@@ -1,0 +1,13 @@
+{
+  "cucumber": {
+    "inclusive_tags": [
+      "@Smoke"
+    ],
+    "exclusive_tags": ["@TN"]
+  },
+  "selenium": {
+    "browser": "chrome",
+    "width": "1920",
+    "height": "1080"
+  }
+}
